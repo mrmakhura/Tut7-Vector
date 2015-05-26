@@ -18,6 +18,19 @@ int main()
 	}
 
 	sort(arrInt.begin(), arrInt.end());
+	reverse(arrInt.begin(), arrInt.end());
+
+	cout << "sorted vector stack : ";
+	for (vector<int>::iterator it = arrInt.begin(); it != arrInt.end(); ++it)
+	{
+		cout << " " << *it;
+
+	}
+
+	cout << endl;
+
+	system("pause");
+	return 0;
 
 
 
